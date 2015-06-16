@@ -48,6 +48,6 @@ Try the included eupage example yourself
 
 
 
-lince
+License
 ---
 MIT Licensed
