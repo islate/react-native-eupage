@@ -7,156 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28D6D5A01B2ADCE300E48E1C /* SlateWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D59A1B2ADCE300E48E1C /* SlateWebImageView.m */; };
-		28D6D5A11B2ADCE300E48E1C /* PBJVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D59B1B2ADCE300E48E1C /* PBJVideoPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5A21B2ADCE300E48E1C /* PBJVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D59C1B2ADCE300E48E1C /* PBJVideoPlayerController.m */; };
-		28D6D5A31B2ADCE300E48E1C /* PBJVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D59D1B2ADCE300E48E1C /* PBJVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5A41B2ADCE300E48E1C /* PBJVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D59E1B2ADCE300E48E1C /* PBJVideoView.m */; };
-		28D6D5A51B2ADCE300E48E1C /* SlateWebImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D59F1B2ADCE300E48E1C /* SlateWebImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5B21B2ADD0E00E48E1C /* EUPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5A61B2ADD0E00E48E1C /* EUPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5B31B2ADD0E00E48E1C /* EUPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5A71B2ADD0E00E48E1C /* EUPageView.m */; };
-		28D6D5B41B2ADD0E00E48E1C /* EUImagePageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5A81B2ADD0E00E48E1C /* EUImagePageViewCell.m */; };
-		28D6D5B51B2ADD0E00E48E1C /* EUPageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5A91B2ADD0E00E48E1C /* EUPageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5B61B2ADD0E00E48E1C /* EUPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5AA1B2ADD0E00E48E1C /* EUPageViewCell.m */; };
-		28D6D5B71B2ADD0E00E48E1C /* EUVideoPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5AB1B2ADD0E00E48E1C /* EUVideoPageViewCell.m */; };
-		28D6D5B81B2ADD0E00E48E1C /* EUWebPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5AC1B2ADD0E00E48E1C /* EUWebPageViewCell.m */; };
-		28D6D5B91B2ADD0E00E48E1C /* EUBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5AD1B2ADD0E00E48E1C /* EUBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5BA1B2ADD0E00E48E1C /* EUBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5AE1B2ADD0E00E48E1C /* EUBaseModel.m */; };
-		28D6D5BB1B2ADD0E00E48E1C /* EUImagePageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5AF1B2ADD0E00E48E1C /* EUImagePageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5BC1B2ADD0E00E48E1C /* EUVideoPageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5B01B2ADD0E00E48E1C /* EUVideoPageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5BD1B2ADD0E00E48E1C /* EUWebPageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5B11B2ADD0E00E48E1C /* EUWebPageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5C01B2ADD5300E48E1C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6D5BF1B2ADD5300E48E1C /* ImageIO.framework */; };
-		28D6D5C21B2ADD5B00E48E1C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6D5C11B2ADD5B00E48E1C /* MapKit.framework */; };
-		28D6D5C41B2ADD6900E48E1C /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6D5C31B2ADD6900E48E1C /* SDWebImage.framework */; };
-		28D6D5E61B2AE22300E48E1C /* RCTEUPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5E21B2AE22300E48E1C /* RCTEUPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5E71B2AE22300E48E1C /* RCTEUPageViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D6D5E31B2AE22300E48E1C /* RCTEUPageViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D6D5E81B2AE22300E48E1C /* RCTEUPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5E41B2AE22300E48E1C /* RCTEUPageView.m */; };
-		28D6D5E91B2AE22300E48E1C /* RCTEUPageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5E51B2AE22300E48E1C /* RCTEUPageViewManager.m */; };
-		28FD61C41B2ABAEF00E45CFE /* RCTEUPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FD61C31B2ABAEF00E45CFE /* RCTEUPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28FD61CA1B2ABAEF00E45CFE /* RCTEUPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD61BE1B2ABAEF00E45CFE /* RCTEUPage.framework */; };
-		28FD61D11B2ABAEF00E45CFE /* RCTEUPageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD61D01B2ABAEF00E45CFE /* RCTEUPageTests.m */; };
+		81BA13441B3028CE00C54A24 /* RCTEUPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5E41B2AE22300E48E1C /* RCTEUPageView.m */; };
+		81BA13451B3028D000C54A24 /* RCTEUPageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6D5E51B2AE22300E48E1C /* RCTEUPageViewManager.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		28FD61CB1B2ABAEF00E45CFE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28FD61B51B2ABAEF00E45CFE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28FD61BD1B2ABAEF00E45CFE;
-			remoteInfo = RCTEUPage;
+/* Begin PBXCopyFilesBuildPhase section */
+		81C36C6F1B30020200B0821C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		28D6D59A1B2ADCE300E48E1C /* SlateWebImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlateWebImageView.m; path = Vendor/SlateWebImageView.m; sourceTree = "<group>"; };
-		28D6D59B1B2ADCE300E48E1C /* PBJVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBJVideoPlayerController.h; path = Vendor/PBJVideoPlayerController.h; sourceTree = "<group>"; };
-		28D6D59C1B2ADCE300E48E1C /* PBJVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBJVideoPlayerController.m; path = Vendor/PBJVideoPlayerController.m; sourceTree = "<group>"; };
-		28D6D59D1B2ADCE300E48E1C /* PBJVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBJVideoView.h; path = Vendor/PBJVideoView.h; sourceTree = "<group>"; };
-		28D6D59E1B2ADCE300E48E1C /* PBJVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBJVideoView.m; path = Vendor/PBJVideoView.m; sourceTree = "<group>"; };
-		28D6D59F1B2ADCE300E48E1C /* SlateWebImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlateWebImageView.h; path = Vendor/SlateWebImageView.h; sourceTree = "<group>"; };
-		28D6D5A61B2ADD0E00E48E1C /* EUPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUPageView.h; sourceTree = "<group>"; };
-		28D6D5A71B2ADD0E00E48E1C /* EUPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUPageView.m; sourceTree = "<group>"; };
-		28D6D5A81B2ADD0E00E48E1C /* EUImagePageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUImagePageViewCell.m; sourceTree = "<group>"; };
-		28D6D5A91B2ADD0E00E48E1C /* EUPageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUPageViewCell.h; sourceTree = "<group>"; };
-		28D6D5AA1B2ADD0E00E48E1C /* EUPageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUPageViewCell.m; sourceTree = "<group>"; };
-		28D6D5AB1B2ADD0E00E48E1C /* EUVideoPageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUVideoPageViewCell.m; sourceTree = "<group>"; };
-		28D6D5AC1B2ADD0E00E48E1C /* EUWebPageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUWebPageViewCell.m; sourceTree = "<group>"; };
-		28D6D5AD1B2ADD0E00E48E1C /* EUBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUBaseModel.h; sourceTree = "<group>"; };
-		28D6D5AE1B2ADD0E00E48E1C /* EUBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUBaseModel.m; sourceTree = "<group>"; };
-		28D6D5AF1B2ADD0E00E48E1C /* EUImagePageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUImagePageViewCell.h; sourceTree = "<group>"; };
-		28D6D5B01B2ADD0E00E48E1C /* EUVideoPageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUVideoPageViewCell.h; sourceTree = "<group>"; };
-		28D6D5B11B2ADD0E00E48E1C /* EUWebPageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUWebPageViewCell.h; sourceTree = "<group>"; };
-		28D6D5BF1B2ADD5300E48E1C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		28D6D5C11B2ADD5B00E48E1C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		28D6D5C31B2ADD6900E48E1C /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Vendor/SDWebImage.framework; sourceTree = "<group>"; };
 		28D6D5E21B2AE22300E48E1C /* RCTEUPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTEUPageView.h; sourceTree = SOURCE_ROOT; };
 		28D6D5E31B2AE22300E48E1C /* RCTEUPageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTEUPageViewManager.h; sourceTree = SOURCE_ROOT; };
 		28D6D5E41B2AE22300E48E1C /* RCTEUPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTEUPageView.m; sourceTree = SOURCE_ROOT; };
 		28D6D5E51B2AE22300E48E1C /* RCTEUPageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTEUPageViewManager.m; sourceTree = SOURCE_ROOT; };
-		28FD61BE1B2ABAEF00E45CFE /* RCTEUPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCTEUPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28FD61C21B2ABAEF00E45CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28FD61C31B2ABAEF00E45CFE /* RCTEUPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTEUPage.h; sourceTree = "<group>"; };
-		28FD61C91B2ABAEF00E45CFE /* RCTEUPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTEUPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28FD61CF1B2ABAEF00E45CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28FD61D01B2ABAEF00E45CFE /* RCTEUPageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTEUPageTests.m; sourceTree = "<group>"; };
+		81C36C711B30020200B0821C /* libRCTEUPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTEUPage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28FD61BA1B2ABAEF00E45CFE /* Frameworks */ = {
+		81C36C6E1B30020200B0821C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28D6D5C41B2ADD6900E48E1C /* SDWebImage.framework in Frameworks */,
-				28D6D5C21B2ADD5B00E48E1C /* MapKit.framework in Frameworks */,
-				28D6D5C01B2ADD5300E48E1C /* ImageIO.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28FD61C61B2ABAEF00E45CFE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28FD61CA1B2ABAEF00E45CFE /* RCTEUPage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28D6D5971B2ADCB800E48E1C /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				28D6D59A1B2ADCE300E48E1C /* SlateWebImageView.m */,
-				28D6D59B1B2ADCE300E48E1C /* PBJVideoPlayerController.h */,
-				28D6D59C1B2ADCE300E48E1C /* PBJVideoPlayerController.m */,
-				28D6D59D1B2ADCE300E48E1C /* PBJVideoView.h */,
-				28D6D59E1B2ADCE300E48E1C /* PBJVideoView.m */,
-				28D6D59F1B2ADCE300E48E1C /* SlateWebImageView.h */,
-			);
-			name = Vendor;
-			sourceTree = "<group>";
-		};
-		28D6D5981B2ADCC400E48E1C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				28D6D5A61B2ADD0E00E48E1C /* EUPageView.h */,
-				28D6D5A71B2ADD0E00E48E1C /* EUPageView.m */,
-				28D6D5A91B2ADD0E00E48E1C /* EUPageViewCell.h */,
-				28D6D5AA1B2ADD0E00E48E1C /* EUPageViewCell.m */,
-				28D6D5B11B2ADD0E00E48E1C /* EUWebPageViewCell.h */,
-				28D6D5AC1B2ADD0E00E48E1C /* EUWebPageViewCell.m */,
-				28D6D5AF1B2ADD0E00E48E1C /* EUImagePageViewCell.h */,
-				28D6D5A81B2ADD0E00E48E1C /* EUImagePageViewCell.m */,
-				28D6D5B01B2ADD0E00E48E1C /* EUVideoPageViewCell.h */,
-				28D6D5AB1B2ADD0E00E48E1C /* EUVideoPageViewCell.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		28D6D5991B2ADCCE00E48E1C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				28D6D5AD1B2ADD0E00E48E1C /* EUBaseModel.h */,
-				28D6D5AE1B2ADD0E00E48E1C /* EUBaseModel.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		28D6D5BE1B2ADD3D00E48E1C /* Frame */ = {
-			isa = PBXGroup;
-			children = (
-				28D6D5C31B2ADD6900E48E1C /* SDWebImage.framework */,
-				28D6D5C11B2ADD5B00E48E1C /* MapKit.framework */,
-				28D6D5BF1B2ADD5300E48E1C /* ImageIO.framework */,
-			);
-			name = Frame;
-			sourceTree = "<group>";
-		};
 		28FD61B41B2ABAEF00E45CFE = {
 			isa = PBXGroup;
 			children = (
-				28FD61C01B2ABAEF00E45CFE /* RCTEUPage */,
-				28FD61CD1B2ABAEF00E45CFE /* RCTEUPageTests */,
+				28D6D5E21B2AE22300E48E1C /* RCTEUPageView.h */,
+				28D6D5E41B2AE22300E48E1C /* RCTEUPageView.m */,
+				28D6D5E31B2AE22300E48E1C /* RCTEUPageViewManager.h */,
+				28D6D5E51B2AE22300E48E1C /* RCTEUPageViewManager.m */,
 				28FD61BF1B2ABAEF00E45CFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -164,114 +56,30 @@
 		28FD61BF1B2ABAEF00E45CFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28FD61BE1B2ABAEF00E45CFE /* RCTEUPage.framework */,
-				28FD61C91B2ABAEF00E45CFE /* RCTEUPageTests.xctest */,
+				81C36C711B30020200B0821C /* libRCTEUPage.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28FD61C01B2ABAEF00E45CFE /* RCTEUPage */ = {
-			isa = PBXGroup;
-			children = (
-				28D6D5BE1B2ADD3D00E48E1C /* Frame */,
-				28D6D5991B2ADCCE00E48E1C /* Model */,
-				28D6D5981B2ADCC400E48E1C /* View */,
-				28D6D5971B2ADCB800E48E1C /* Vendor */,
-				28FD61C31B2ABAEF00E45CFE /* RCTEUPage.h */,
-				28D6D5E21B2AE22300E48E1C /* RCTEUPageView.h */,
-				28D6D5E41B2AE22300E48E1C /* RCTEUPageView.m */,
-				28D6D5E31B2AE22300E48E1C /* RCTEUPageViewManager.h */,
-				28D6D5E51B2AE22300E48E1C /* RCTEUPageViewManager.m */,
-				28FD61C11B2ABAEF00E45CFE /* Supporting Files */,
-			);
-			path = RCTEUPage;
-			sourceTree = "<group>";
-		};
-		28FD61C11B2ABAEF00E45CFE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				28FD61C21B2ABAEF00E45CFE /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		28FD61CD1B2ABAEF00E45CFE /* RCTEUPageTests */ = {
-			isa = PBXGroup;
-			children = (
-				28FD61D01B2ABAEF00E45CFE /* RCTEUPageTests.m */,
-				28FD61CE1B2ABAEF00E45CFE /* Supporting Files */,
-			);
-			path = RCTEUPageTests;
-			sourceTree = "<group>";
-		};
-		28FD61CE1B2ABAEF00E45CFE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				28FD61CF1B2ABAEF00E45CFE /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		28FD61BB1B2ABAEF00E45CFE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28D6D5BB1B2ADD0E00E48E1C /* EUImagePageViewCell.h in Headers */,
-				28D6D5A11B2ADCE300E48E1C /* PBJVideoPlayerController.h in Headers */,
-				28D6D5B91B2ADD0E00E48E1C /* EUBaseModel.h in Headers */,
-				28D6D5A31B2ADCE300E48E1C /* PBJVideoView.h in Headers */,
-				28D6D5B51B2ADD0E00E48E1C /* EUPageViewCell.h in Headers */,
-				28D6D5BD1B2ADD0E00E48E1C /* EUWebPageViewCell.h in Headers */,
-				28D6D5A51B2ADCE300E48E1C /* SlateWebImageView.h in Headers */,
-				28D6D5B21B2ADD0E00E48E1C /* EUPageView.h in Headers */,
-				28D6D5BC1B2ADD0E00E48E1C /* EUVideoPageViewCell.h in Headers */,
-				28D6D5E61B2AE22300E48E1C /* RCTEUPageView.h in Headers */,
-				28D6D5E71B2AE22300E48E1C /* RCTEUPageViewManager.h in Headers */,
-				28FD61C41B2ABAEF00E45CFE /* RCTEUPage.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		28FD61BD1B2ABAEF00E45CFE /* RCTEUPage */ = {
+		81C36C701B30020200B0821C /* RCTEUPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28FD61D41B2ABAEF00E45CFE /* Build configuration list for PBXNativeTarget "RCTEUPage" */;
+			buildConfigurationList = 81C36C861B30020200B0821C /* Build configuration list for PBXNativeTarget "RCTEUPage" */;
 			buildPhases = (
-				28FD61B91B2ABAEF00E45CFE /* Sources */,
-				28FD61BA1B2ABAEF00E45CFE /* Frameworks */,
-				28FD61BB1B2ABAEF00E45CFE /* Headers */,
-				28FD61BC1B2ABAEF00E45CFE /* Resources */,
+				81C36C6D1B30020200B0821C /* Sources */,
+				81C36C6E1B30020200B0821C /* Frameworks */,
+				81C36C6F1B30020200B0821C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RCTEUPage;
-			productName = RCTEUPage;
-			productReference = 28FD61BE1B2ABAEF00E45CFE /* RCTEUPage.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		28FD61C81B2ABAEF00E45CFE /* RCTEUPageTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28FD61D71B2ABAEF00E45CFE /* Build configuration list for PBXNativeTarget "RCTEUPageTests" */;
-			buildPhases = (
-				28FD61C51B2ABAEF00E45CFE /* Sources */,
-				28FD61C61B2ABAEF00E45CFE /* Frameworks */,
-				28FD61C71B2ABAEF00E45CFE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				28FD61CC1B2ABAEF00E45CFE /* PBXTargetDependency */,
-			);
-			name = RCTEUPageTests;
-			productName = RCTEUPageTests;
-			productReference = 28FD61C91B2ABAEF00E45CFE /* RCTEUPageTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productName = EUPage;
+			productReference = 81C36C711B30020200B0821C /* libRCTEUPage.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -282,11 +90,8 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = wangliqun;
 				TargetAttributes = {
-					28FD61BD1B2ABAEF00E45CFE = {
-						CreatedOnToolsVersion = 6.3.2;
-					};
-					28FD61C81B2ABAEF00E45CFE = {
-						CreatedOnToolsVersion = 6.3.2;
+					81C36C701B30020200B0821C = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -302,65 +107,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28FD61BD1B2ABAEF00E45CFE /* RCTEUPage */,
-				28FD61C81B2ABAEF00E45CFE /* RCTEUPageTests */,
+				81C36C701B30020200B0821C /* RCTEUPage */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		28FD61BC1B2ABAEF00E45CFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28FD61C71B2ABAEF00E45CFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		28FD61B91B2ABAEF00E45CFE /* Sources */ = {
+		81C36C6D1B30020200B0821C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28D6D5A01B2ADCE300E48E1C /* SlateWebImageView.m in Sources */,
-				28D6D5BA1B2ADD0E00E48E1C /* EUBaseModel.m in Sources */,
-				28D6D5B31B2ADD0E00E48E1C /* EUPageView.m in Sources */,
-				28D6D5E91B2AE22300E48E1C /* RCTEUPageViewManager.m in Sources */,
-				28D6D5A21B2ADCE300E48E1C /* PBJVideoPlayerController.m in Sources */,
-				28D6D5B61B2ADD0E00E48E1C /* EUPageViewCell.m in Sources */,
-				28D6D5E81B2AE22300E48E1C /* RCTEUPageView.m in Sources */,
-				28D6D5A41B2ADCE300E48E1C /* PBJVideoView.m in Sources */,
-				28D6D5B71B2ADD0E00E48E1C /* EUVideoPageViewCell.m in Sources */,
-				28D6D5B81B2ADD0E00E48E1C /* EUWebPageViewCell.m in Sources */,
-				28D6D5B41B2ADD0E00E48E1C /* EUImagePageViewCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28FD61C51B2ABAEF00E45CFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28FD61D11B2ABAEF00E45CFE /* RCTEUPageTests.m in Sources */,
+				81BA13441B3028CE00C54A24 /* RCTEUPageView.m in Sources */,
+				81BA13451B3028D000C54A24 /* RCTEUPageViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		28FD61CC1B2ABAEF00E45CFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28FD61BD1B2ABAEF00E45CFE /* RCTEUPage */;
-			targetProxy = 28FD61CB1B2ABAEF00E45CFE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		28FD61D21B2ABAEF00E45CFE /* Debug */ = {
@@ -400,7 +162,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -441,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,71 +213,49 @@
 			};
 			name = Release;
 		};
-		28FD61D51B2ABAEF00E45CFE /* Debug */ = {
+		81C36C821B30020200B0821C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RCTEUPage/Vendor",
-				);
-				INFOPLIST_FILE = RCTEUPage/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		28FD61D61B2ABAEF00E45CFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RCTEUPage/Vendor",
-				);
-				INFOPLIST_FILE = RCTEUPage/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		28FD61D81B2ABAEF00E45CFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RCTEUPageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/EUPage\"",
+					"\"${PODS_ROOT}/Headers/Public/PBJVideoPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SlateWebImageView\"",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../Pods/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		28FD61D91B2ABAEF00E45CFE /* Release */ = {
+		81C36C831B30020200B0821C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/EUPage\"",
+					"\"${PODS_ROOT}/Headers/Public/PBJVideoPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SlateWebImageView\"",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../Pods/**",
 				);
-				INFOPLIST_FILE = RCTEUPageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -531,20 +271,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28FD61D41B2ABAEF00E45CFE /* Build configuration list for PBXNativeTarget "RCTEUPage" */ = {
+		81C36C861B30020200B0821C /* Build configuration list for PBXNativeTarget "RCTEUPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28FD61D51B2ABAEF00E45CFE /* Debug */,
-				28FD61D61B2ABAEF00E45CFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28FD61D71B2ABAEF00E45CFE /* Build configuration list for PBXNativeTarget "RCTEUPageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28FD61D81B2ABAEF00E45CFE /* Debug */,
-				28FD61D91B2ABAEF00E45CFE /* Release */,
+				81C36C821B30020200B0821C /* Debug */,
+				81C36C831B30020200B0821C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

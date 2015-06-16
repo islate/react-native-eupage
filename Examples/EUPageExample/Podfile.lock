@@ -1,15 +1,21 @@
 PODS:
+  - EUPage (0.1.0):
+    - SlateWebImageView (~> 0.1.0)
   - PBJVideoPlayer (0.2.0)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
+  - SlateWebImageView (0.1.0):
+    - PBJVideoPlayer (~> 0.2.0)
+    - SDWebImage (~> 3.7.2)
 
 DEPENDENCIES:
-  - PBJVideoPlayer
-  - SDWebImage (~> 3.7.2)
+  - EUPage (~> 0.1.0)
 
 SPEC CHECKSUMS:
+  EUPage: 9f490146c1c2165ec8b3c943f52940cfc15ebc7f
   PBJVideoPlayer: 60e8601398ba0fc1e38c431863c9222b4f4b7153
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SlateWebImageView: 96829850ddff816a2443d04685e6988136f8f67e
 
 COCOAPODS: 0.37.2

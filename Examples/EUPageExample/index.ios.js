@@ -31,7 +31,7 @@ var EUPageExample = React.createClass({
     
   render: function() 
   {
-    console.log(this.state.data);
+    //console.log(this.state.data);
     return (
       <EUPageView style={styles.eupage} dataArray={this.state.data}>
       </EUPageView>
