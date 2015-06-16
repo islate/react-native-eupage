@@ -4,8 +4,7 @@
   "description": "Easy use pageview ,support video,picture,html ",
   "main": "EUPage.js",
   "dependencies": {
-    "react-native":"^0.5.0",
-    "react-native-eupage":"^1.0.2"
+    "react-native":"^0.5.0"
   },
   "devDependencies": {},
   "scripts": {
