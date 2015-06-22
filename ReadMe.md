@@ -39,7 +39,7 @@ render: function()
 ## Example
 Try the included eupage example yourself
 
-1. git clone https://github.com/2005wangliqun/react-native-eupage
+1. git clone https://github.com/mmslate/react-native-eupage
 2. cd react-native-eupage/Examples/EUPageExample
 3. pod install
 4. npm install
