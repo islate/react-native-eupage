@@ -63,9 +63,18 @@
   {
     NSDictionary *rowdata = [self.dataArray objectAtIndex:row];
     NSString *url = [rowdata objectForKey:@"url"];
+    NSString *type = [rowdata objectForKey:@"type"];
     model = [[EUBaseModel alloc] init];
     model.resourceUrl = url;
-    model.cellType = CellTypeWeb;
+    if ([type isEqualToString:@"html"]) {
+      model.cellType = CellTypeWeb;
+    }
+    else if ([type isEqualToString:@"image"]) {
+      model.cellType = CellTypeImage;
+    }
+    else if ([type isEqualToString:@"video"]) {
+      model.cellType = CellTypeVideo;
+    }
   }
   
   return model;
