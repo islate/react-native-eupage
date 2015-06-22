@@ -1,6 +1,6 @@
 ## react-native-eupage
 ---
-A component for react-native ,Requires react-native >= 0.4.4
+A react-native component to show web/picture/video pages. Requires react-native >= 0.4.4
 
 ## Add to your project 
 1. run `npm install react-native-eupage --save`
