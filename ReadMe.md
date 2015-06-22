@@ -17,22 +17,22 @@ A react-native component to show web/picture/video pages. Requires react-native 
 var EUPageExample = React.createClass({
 getInitialState: function() 
 {
-return {
-data:[{"url":"http://www.baidu.com", "type":"html"},
-{"url":"http://www.163.com", "type":"html"},
-{"url":"http://www.sina.com", "type":"html"}, 
-{"url":"http://www.sohu.com", "type":"html"}]
-}
+  return {
+    data:[{"url":"http://www.bing.com", "type":"html"},
+          {"url":"http://s.cn.bing.net/az/hprichbg/rb/WaterliliesYuanmingyuan_ZH-CN10533925188_1920x1080.jpg", "type":"image"},
+          {"url":"http://www.yahoo.com", "type":"html"}, 
+          {"url":"http://debug.bbwc.cn/uploadfile/video/iweekly_android/2015/05/29/20150529120500960/20150529120500960.mp4", "type":"video"}]
+  }
 },
 
 render: function() 
 {
-console.log(this.state.data);
-return (
-<EUPageView style={styles.eupage} dataArray={this.state.data}>
-</EUPageView>
-);
-} 
+  console.log(this.state.data);
+    return (
+      <EUPageView style={styles.eupage} dataArray={this.state.data}>
+      </EUPageView>
+    );
+  } 
 });
 ```
 
