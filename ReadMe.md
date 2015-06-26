@@ -1,13 +1,18 @@
 ## react-native-eupage
 ---
-A react-native component to show web/picture/video pages. Requires react-native >= 0.4.4
+A react-native component to show html/image/video fullscreen pages.
+
+## Screenshots
+---
+This is a screencapture of a demo. 
+![Screenshots](http://7fvh6h.com1.z0.glb.clouddn.com/blogdebug3.gif)
 
 ## Add to your project 
 1. run `npm install react-native-eupage --save`
 2. Open your project in XCode, right click on Libraries and click Add eupage project  Files to "Your Project Name"
 3. copy Podfile to your project  then run 'pod install' to install framework it dependent on.
 
-## usage
+## Usage
 
 ```
 /*
@@ -43,11 +48,10 @@ Try the included eupage example yourself
 2. cd react-native-eupage/Examples/EUPageExample
 3. pod install
 4. npm install
-5. open EUPageExample.xcworkspace 
-6. Cmd+R to start the React Packager, build and run the project in the simulator.
+5. npm start
+6. Open EUPageExample.xcworkspace, build and run the project in the simulator.
 
 
-
-License
+## License
 ---
 MIT Licensed
