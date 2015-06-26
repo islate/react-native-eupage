@@ -1,7 +1,7 @@
 {
   "name": "react-native-eupage",
-  "version": "1.0.4",
-  "description": "Easy use pageview. Support video, picture, html. ",
+  "version": "1.0.5",
+  "description": "Easy to show html, image, video fullscreen pages. ",
   "main": "EUPage.js",
   "peerDependencies": {
     "react-native": ">= 0.4.3"

@@ -3,7 +3,7 @@
 //  RCTEUPage
 //
 //  Created by linyize on 15/6/10.
-//  Copyright (c) 2015年 Facebook. All rights reserved.
+//  Copyright (c) 2015年 mmslate. All rights reserved.
 //
 
 #import "RCTEUPageView.h"
