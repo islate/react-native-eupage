@@ -10,7 +10,7 @@ This is a screencapture of a demo.
 ## Add to your project 
 1. run `npm install react-native-eupage --save`
 2. Open your project in XCode, right click on Libraries and click Add eupage project  Files to "Your Project Name"
-3. copy Podfile to your project  then run 'pod install' to install framework it dependent on.
+3. copy Podfile to your project then run 'pod install' to install needed pods.
 
 ## Usage
 
@@ -32,7 +32,6 @@ getInitialState: function()
 
 render: function() 
 {
-  console.log(this.state.data);
     return (
       <EUPageView style={styles.eupage} dataArray={this.state.data}>
       </EUPageView>
@@ -42,7 +41,6 @@ render: function()
 ```
 
 ## Example
-Try the included eupage example yourself
 
 1. git clone https://github.com/mmslate/react-native-eupage
 2. cd react-native-eupage/Examples/EUPageExample
