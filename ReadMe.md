@@ -16,8 +16,8 @@ This is a screencapture of a demo.
 
 ```
 /*
-*   a base page  model is formt with a url and type ,
-*   the type current support html,image,video
+*   A base page model is format with a "url" and "type".
+*   Current supported types are "html", "image" and "video".
 */
 var EUPageExample = React.createClass({
 getInitialState: function() 
