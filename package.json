@@ -1,6 +1,6 @@
 {
   "name": "react-native-eupage",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Easy to show html, image, video fullscreen pages. ",
   "main": "EUPage.js",
   "peerDependencies": {
@@ -27,7 +27,7 @@
     "react-native",
     "ios"
   ],
-  "author": "linyize, wangliqun",
+  "author": "wangliqun, linyize",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mmslate/react-native-eupage/issues"
