@@ -5,7 +5,7 @@ A react-native component to show html/image/video fullscreen pages.
 ## Screenshots
 ---
 This is a screencapture of a demo. 
-![Screenshots](http://7fvh6h.com1.z0.glb.clouddn.com/blogdebug3.gif)
+![Screenshots](http://7b1gcw.com1.z0.glb.clouddn.com/demo.gif)
 
 ## Add to your project 
 1. run `npm install react-native-eupage --save`
@@ -20,18 +20,19 @@ This is a screencapture of a demo.
 *   Current supported types are "html", "image" and "video".
 */
 var EUPageExample = React.createClass({
-getInitialState: function() 
-{
-  return {
-    data:[{"url":"http://www.bing.com", "type":"html"},
+  getInitialState: function() 
+  {
+    return {
+      data:[{"url":"http://www.bing.com", "type":"html"},
+          {"url":"http://www.yahoo.com", "type":"html"},
           {"url":"http://s.cn.bing.net/az/hprichbg/rb/WaterliliesYuanmingyuan_ZH-CN10533925188_1920x1080.jpg", "type":"image"},
-          {"url":"http://www.yahoo.com", "type":"html"}, 
-          {"url":"http://debug.bbwc.cn/uploadfile/video/iweekly_android/2015/05/29/20150529120500960/20150529120500960.mp4", "type":"video"}]
-  }
-},
+          {"url":"http://7b1gcw.com1.z0.glb.clouddn.com/20150529120500960.mp4", "type":"video"}]
 
-render: function() 
-{
+    }
+              
+  }, 
+  render: function() 
+  {
     return (
       <EUPageView style={styles.eupage} dataArray={this.state.data}>
       </EUPageView>
